@@ -1,0 +1,23 @@
+*, body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: var(--gray);
+}
+
+main {
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}

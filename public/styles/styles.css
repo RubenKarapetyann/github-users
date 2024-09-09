@@ -1,0 +1,11 @@
+@import url("./global/default.css");
+@import url("./global/global-styles.css");
+@import url("./global/palette.css");
+@import url("./components/header.css");
+@import url("./components/search-input.css");
+@import url("./components/card.css");
+@import url("./components/users-list.css");
+@import url("./components/user-profile-layout.css");
+@import url("./components/breaker.css");
+@import url("./components/nav-bar.css");
+@import url("./components/advanced-search.css");

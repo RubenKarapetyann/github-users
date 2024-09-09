@@ -1,0 +1,6 @@
+.breaker {
+    width: 100px;
+    height: 5px;
+    background-color: var(--purple);
+    margin: 20px 0;
+}
