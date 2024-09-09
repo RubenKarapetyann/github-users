@@ -1,3 +1,4 @@
+import { follow } from "../../routing/navigation.mjs"
 import searchInputLayout from "../searchInput/searchInput.mjs"
 import text from "../text/text.mjs"
 
@@ -9,6 +10,12 @@ const header = () => {
     header.appendChild(text({label : "Find a user you want here", size : 12}))
 
     header.appendChild(searchInputLayout)
+
+    follow((currentPathname, prevoiusPathname) => {
+        if(currentPathname !== prevoiusPathname){
+            searchInputLayout.value = ""
+        }
+    })
     return header
 }
 
